@@ -7,7 +7,7 @@
     android:padding="8dp">
 
     <TextView
-        android:id="@+id/textViewTitle"
+        android:id="@+id/textViewAuthor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textStyle="bold"
@@ -21,6 +21,6 @@
         android:layout_height="wrap_content"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewTitle"
+        app:layout_constraintTop_toBottomOf="@+id/textViewAuthor"
         tools:text="Текст сообщений" />
 </androidx.constraintlayout.widget.ConstraintLayout>
